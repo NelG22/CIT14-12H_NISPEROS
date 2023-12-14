@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;   
+    background-color: #6d7985;
+    /* Customize background color */
+    border: 1px solid #eee;
+    /* Add border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+    font-family: Arial, sans-serif;
+    /* Customize font */
+}
+
+.navbar a {
+    color: #fff;
+    /* Customize text color */
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 16px;
+    /* Customize font size */
+}
+
+.navbar a:hover {
+    color: #eee;
+    /* Add hover effect */
+    background-color: #414c59;
+    /* Customize hover background */
+}
+
+.logo {
+    width: 50px;
+    /* Adjust logo size */
+    margin-right: 1em;
+}
+
+/* Responsive Changes */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 1em;
+    }
+}
